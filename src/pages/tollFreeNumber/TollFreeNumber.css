@@ -1,0 +1,30 @@
+.Toll_Free_number {
+    background-image: url('../../assets//images/border_img.png');
+    width: 65%;
+    height: 69px;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+
+.grid-item1 {
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 10px;
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.grid-item2 {
+    font-weight: 900;
+    font-size: 24px;
+    align-items: center;
+    padding: 15px;
+    margin-left: 8px;
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

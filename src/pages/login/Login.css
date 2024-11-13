@@ -1,0 +1,112 @@
+.card {
+    width: 934px;
+    height: 592px;
+    display: flex;
+    padding: 50px;
+    border-radius: 43px;
+    background-image: linear-gradient(rgba(44, 86, 238, 1), rgba(255, 255, 255, 1));
+    border: none;
+    margin-top: 100px;
+}
+
+.ellipse {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Heading_login {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.para_login {
+    font-weight: 400;
+    line-height: 15.73px;
+    font-size: 13px;
+}
+
+.login_content {
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_img {
+    width: 201px;
+    height: 172px;
+}
+
+.login_card2 {
+    width: 406px;
+    height: 487px;
+    border-radius: 38px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.login_Header_text {
+    height: 63px;
+    font-weight: 200;
+    font-size: 48px;
+    background: linear-gradient(180deg, #2C56EE 0%, #999999 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+
+.login_content2 {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-top: 25px;
+}
+
+.btn_login {
+    border-radius: 35px;
+    border: none;
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login_forgot {
+    text-align: right;
+}
+
+.login_forgot_text {
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(102, 102, 102, 1);
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 35px;
+    font-size: 14px;
+    height: 48px;
+    padding-left: 50px;
+    border: 1px solid rgba(226, 223, 223, 1);
+    background-color: rgba(217, 220, 219, 0.25);
+}
+
+.form_login {
+    margin-top: 35px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.login_text {
+    background: linear-gradient(180deg, #2C56EE 0%, #999999 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 25px;
+}
+
+.login_eye {
+    font-size: 25px;
+    left: 270px;
+}

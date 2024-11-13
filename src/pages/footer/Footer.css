@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    height: 160px;
+}
+
+.footer_bg1 {
+    background-image: url("../../assets/images/Vector1.png"), url("../../assets/images/Vector2.png");
+    background-size: 100% 90%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom, center top;
+    width: 100%;
+    height: 160px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.52px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icon_banner {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.btn1_app,
+.btn2_app {
+    border-radius: 20px;
+    width: 7%;
+    padding: 6px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.footer_text{
+    margin-top: 15px;
+}

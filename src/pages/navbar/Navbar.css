@@ -1,0 +1,38 @@
+.Landing_page {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro';
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 51px !important;
+}
+
+.nav_logo {
+    width: 80%;
+    height: 12vh;
+    margin-left: 51px;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+    font-weight: 400;
+}
+
+.nav-item {
+    margin: 25px !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav_btn {
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    width: 151px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+

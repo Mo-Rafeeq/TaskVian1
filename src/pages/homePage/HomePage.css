@@ -1,0 +1,96 @@
+ .Home_page {
+     height: 100vh;
+ }
+
+ .Landing_page {
+     background-color: rgba(255, 255, 255, 1);
+     font-family: 'Source Sans Pro';
+     margin: 0 !important;
+     padding: 0 !important;
+ }
+
+ .homePage_head_content {
+     background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 57.6px;
+ }
+
+ .homePage_head {
+     margin-top: 40px;
+     margin-left: 150px;
+     font-family: sans-serif;
+ }
+
+ .head_paragraph {
+     font-weight: 700;
+     text-transform: uppercase;
+     font-size: 20px;
+     line-height: 24px;
+     color: rgba(0, 0, 0, 1);
+ }
+
+ .head_discr {
+     width: 75%;
+     font-size: 15px;
+     font-weight: 500;
+     line-height: var(--TitleMediumLineHeight);
+     text-align: justify;
+ }
+
+ .Login_btn {
+     width: 28%;
+     height: 8vh;
+     border: none;
+     background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+     color: rgba(255, 255, 255, 1);
+     justify-content: center;
+     font-weight: 700;
+ }
+
+ .Login_btn_bg {
+     width: 32%;
+     height: 8vh;
+     margin-left: 10px;
+     border: 2px solid transparent;
+     background: linear-gradient(white, white) padding-box,
+         linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%) border-box;
+     font-weight: 700;
+ }
+
+ .Login_font_bg {
+     background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+ }
+
+ .grid-container {
+     border: dashed 4px;
+     border-style: dashed;
+     display: inline-flex;
+     width: 60%;
+     margin-top: 60px;
+     display: flex;
+     font-family: sans-serif;
+     border-radius: 19px;
+ }
+
+ .col-lg-5 {
+     position: relative;
+ }
+
+ .home_img {
+     width: 100%;
+ }
+
+ .home_footer {
+     margin-top: -150px;
+     position: absolute;
+     width: 100%;
+ }
+
+ .col-lg-12 {
+     width: 100%;
+ }
