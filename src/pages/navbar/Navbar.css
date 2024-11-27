@@ -22,6 +22,12 @@
     font-weight: 400;
 }
 
+.nav_bg_vian{
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .nav-item {
     margin: 25px !important;
     font-size: 16px;

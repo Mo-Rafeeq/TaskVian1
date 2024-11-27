@@ -1,12 +1,41 @@
-.card {
-    width: 934px;
-    height: 592px;
+.Login_modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.Login_modal-content {
+     width: 60%;
+    height: 85vh;
+    visibility: visible;
+    opacity: 1;
+    position: absolute; 
+    animation: moveToCenter 1s ease-out;
+}
+
+.Login_close-btn {
+    position: absolute;
+    padding: 30px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: azure;
+}
+
+.Login_modal {
     display: flex;
     padding: 50px;
     border-radius: 43px;
     background-image: linear-gradient(rgba(44, 86, 238, 1), rgba(255, 255, 255, 1));
     border: none;
-    margin-top: 100px;
 }
 
 .ellipse {
@@ -109,4 +138,15 @@
 .login_eye {
     font-size: 25px;
     left: 270px;
+}
+
+@keyframes moveToCenter  {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

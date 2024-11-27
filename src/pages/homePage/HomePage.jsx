@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../homePage/HomePage.css';
 import homeImage from '../../assets/images/home_img.png';
 import Footer from '../footer/Footer';
-import Navbar from '../navbar/Navbar'
+import Navbar from '../navbar/Navbar';
 import TollFreeNumber from '../tollFreeNumber/TollFreeNumber';
 
 const HomePage = () => {
@@ -26,7 +26,7 @@ const HomePage = () => {
                             <button className='rounded-pill Login_btn_bg'> <span className='Login_font_bg'>Start Your Free Trail</span></button>
                         </div>
 
-                        <div className='mt-5 ms-4'>
+                        <div className='mt-5 ms-3'>
                             <TollFreeNumber />
                         </div>
 
@@ -38,7 +38,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <div className='home_footer' style={{}}>
+            <div className='home_footer'>
                 <Footer />
             </div>
 

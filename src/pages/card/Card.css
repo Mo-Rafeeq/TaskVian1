@@ -1,0 +1,10 @@
+.login_card_popup{
+        width: 934px;
+        height: 592px;
+        display: flex;
+        padding: 50px;
+        border-radius: 43px;
+        background-image: linear-gradient(rgba(44, 86, 238, 1), rgba(255, 255, 255, 1));
+        border: none;
+        margin-top: 100px;
+    }

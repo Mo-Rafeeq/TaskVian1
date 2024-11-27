@@ -13,7 +13,7 @@
 
 .modal-content {
     background: black;
-    border-radius:43px;
+    border-radius: 43px;
     width: 60%;
     height: 85vh;
     position: relative;
@@ -30,12 +30,14 @@
     color: azure;
 }
 
-.banner_img{
+.banner_img {
     background-image: url('../../assets/images//comingsoon_img.png');
     border-radius: 43px;
     width: 100%;
     height: 100%;
     position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @keyframes slideUp {
@@ -43,6 +45,7 @@
         transform: translateY(100%);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;

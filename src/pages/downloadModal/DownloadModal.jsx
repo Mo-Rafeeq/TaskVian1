@@ -9,7 +9,8 @@ function DownloadModal({ isOpen, onClose }) {
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                 <div className='banner_img'>
-                    <button className="close-btn" onClick={onClose}><IoMdCloseCircleOutline size={32} /></button>
+                    <button className="close-btn" onClick={onClose}><IoMdCloseCircleOutline size={32} />
+                    </button>
                 </div>
             </div>
         </div>
