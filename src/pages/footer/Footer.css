@@ -1,6 +1,7 @@
 .footer {
     width: 100%;
     height: 160px;
+    flex-wrap: wrap;
 }
 
 .footer_bg1 {

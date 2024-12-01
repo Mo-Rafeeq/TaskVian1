@@ -15,7 +15,7 @@ function Footer() {
     };
 
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className='footer_bg1'>
                <div className='footer_btn'>
                <button onClick={handleDownloadClick} className='btn1_app'><FaGooglePlay size={18}/><span className='icon_banner ms-1'>Google Play</span> </button>
@@ -28,7 +28,7 @@ function Footer() {
             <div className='footer_text'>
             </div>
             <DownloadModal isOpen={showModal} onClose={closeModal} />
-        </div>
+        </footer>
     )
 }
 

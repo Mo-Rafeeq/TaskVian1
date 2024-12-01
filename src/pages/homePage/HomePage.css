@@ -14,7 +14,7 @@
      -webkit-text-fill-color: transparent;
      background-clip: text;
      font-weight: 700;
-     font-size: 48px;
+     font-size: 3rem;
      line-height: 57.6px;
  }
 
@@ -27,21 +27,21 @@
  .head_paragraph {
      font-weight: 700;
      text-transform: uppercase;
-     font-size: 20px;
+     font-size: 1.25rem;
      line-height: 24px;
      color: rgba(0, 0, 0, 1);
  }
 
  .head_discr {
      width: 75%;
-     font-size: 15px;
+     font-size: 1rem;
      font-weight: 500;
      line-height: var(--TitleMediumLineHeight);
      text-align: justify;
  }
 
  .Login_btn {
-     width: 28%;
+     width: 200px;
      height: 8vh;
      border: none;
      background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
@@ -51,7 +51,7 @@
  }
 
  .Login_btn_bg {
-     width: 32%;
+     width: 260px;
      height: 8vh;
      margin-left: 10px;
      border: 2px solid transparent;

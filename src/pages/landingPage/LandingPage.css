@@ -1,0 +1,112 @@
+.landing_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    height: 100vh;
+}
+
+.landing_page_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.landing_card {
+    width: 307px;
+    height: 133px;
+    border-radius: 37px;
+    background-image: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+.landing_heading {
+    margin: 10px 0px 0px 20px;
+    font-weight: 400;
+}
+
+.landing_paragraph2{
+    color: black;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.landing_paragraph {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.landing_heading2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.landing_start_btn {
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    width: 272px;
+    height: 63px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 33px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.custom-dropdown {
+    position: relative;
+    width: 410px;
+    height: 63px;
+    border: 2px solid #2C56EE;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.custom-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000;
+    font-family: Arial, sans-serif;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 10px;
+    color: white;
+    background: linear-gradient(90deg, #2C56EE 0%, #6B87F1 100%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    font-size: 14px;
+    stroke-width: 1px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
